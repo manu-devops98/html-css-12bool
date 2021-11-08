@@ -12,6 +12,23 @@
     color: white;
 }
 
+.width-95 {
+    width: 95%;
+}
+
+.height-70 {
+    height: 70px;
+}
+
+/* 1 SECTION  */
+.first-section {
+    margin-bottom: 1em;
+}
+.first-section .col-xs-6  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* NESTED SECTION  */
 
 .nested [class *= "col-"] {
