@@ -14,7 +14,6 @@ html {
 
 [class *= "col-"] {
    flex: 0 0 auto;
-   border: 1px solid red;
 }
 
 .row {
