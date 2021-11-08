@@ -26,46 +26,6 @@
     border: 1px solid white;
 }
 
-
-/* OFFSET SECTION  */
-.offset .col-offset-xs-1 {
-    margin-left: calc((100% / 12) * 1 - 2px);
-}
-.offset .col-offset-xs-2 {
-    margin-left: calc((100% / 12) * 2 - 2px);
-}
-.offset .col-offset-xs-3 {
-    margin-left: calc((100% / 12) * 3 - 2px);
-}
-.offset .col-offset-xs-4 {
-    margin-left: calc((100% / 12) * 4 - 2px);
-}
-.offset .col-offset-xs-5 {
-    margin-left: calc((100% / 12) * 5 - 2px);
-}
-.offset .col-offset-xs-6 {
-    margin-left: calc((100% / 12) * 6 - 2px);
-}
-.offset .col-offset-xs-7 {
-    margin-left: calc((100% / 12) * 7 - 2px);
-}
-.offset .col-offset-xs-8 {
-    margin-left: calc((100% / 12) * 8 - 2px);
-}
-.offset .col-offset-xs-9 {
-    margin-left: calc((100% / 12) * 9 - 2px);
-}
-.offset .col-offset-xs-10 {
-    margin-left: calc((100% / 12) * 10 - 2px);
-}
-.offset .col-offset-xs-11 {
-    margin-left: calc((100% / 12) * 11 - 2px);
-}
-.offset .col-offset-xs-12 {
-    margin-left: calc((100% / 12) * 12 - 2px);
-}
-
-
 /* NESTED SECTION  */
 
 .nested [class *= "col-"] {
@@ -90,26 +50,5 @@
 }
 
 /* ALIGNMENT SECTION  */
-.alignment .col-xs-12 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.alignment .col-xs-12 h4 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.center {
-   display: flex;
-   justify-content: center;
-}
-
-.end {
-    display: flex;
-    justify-content: flex-end;
-}
 
