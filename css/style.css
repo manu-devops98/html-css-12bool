@@ -3,6 +3,22 @@
     margin: 0 auto;
 }
 
+.width-80 {
+    width: 80%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.mg-auto {
+    margin:  0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
 [class *= "col-"] {
     background-color: #006cf9;
     height: 25px;
@@ -44,4 +60,28 @@
 }
 .offset .col-offset-xs-12 {
     margin-left: calc((100% / 12) * 12 - 2px);
+}
+
+
+/* NESTED SECTION  */
+
+.nested [class *= "col-"] {
+    height: 70px;
+}
+
+.nested .green {
+    background-color: green;
+    height: 30px;
+}
+
+.nested .col-xs-7, 
+.nested .col-xs-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xs-7 .row, 
+.col-xs-5 .row {
+    width: 95%;
 }
